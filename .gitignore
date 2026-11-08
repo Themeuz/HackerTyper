@@ -1,0 +1,3 @@
+# binário gerado pelo build.ps1
+*.exe
+*.pdb
