@@ -1,11 +1,12 @@
 # HackerTyper
+Eu sou um tio **nota 10**
+O sistema se resume em digitar qualquer tecla para recriar um código real já estabelecido como prompt, apenas para uma criança brincar de ser "hacker"
+Ao executar o software, ele vai ficar alocado na bandeja do sistema, o comando **Cntrl + Alt + P** abre um terminal esverdeado em tela cheia, no estilo Matrix
+A cada tecla aleatória, vai ser escrito de 3 a 5 código reais.
 
-Fica na bandeja do sistema. **Ctrl + Alt + P** abre um terminal transparente em tela cheia, no estilo Matrix.
-Cada tecla que você aperta "digita" de 3 a 5 caracteres de código real.
 
 ## Rodar
 - `HackerTyper.exe` (ou `HackerTyper.exe caminho\do\arquivo.c` para já abrir com um arquivo)
-- Recompilar: `powershell -ExecutionPolicy Bypass -File build.ps1`
 
 ## Teclas (dentro do terminal)
 | Tecla | Ação |
@@ -23,5 +24,8 @@ Cada tecla que você aperta "digita" de 3 a 5 caracteres de código real.
 | Esc | esconder |
 
 O código padrão vem da pasta `exemplos/` (coloque lá quantos arquivos quiser, por exemplo um log de build do kernel).
-A lista de comandos de TI fica em `COMANDOS-TI.md`. Edite à vontade: o painel F10 relê o arquivo toda vez que abre.
+Aproveitei para fazer desse "projeto" algo não totalmente inútil e acrescentar listas de comandos no PowerShell que eu utilizo diariamente do meu serviço, afim de relembrar os comandos,
+a lista de comandos fica em `COMANDOS-TI.md`. Editem à vontade, o painel F10 lê o arquivo toda vez que o abre.
 O último arquivo carregado é lembrado. Menu da bandeja: carregar arquivo, modo automático, iniciar com o Windows, sair.
+
+O Software foi feito como brincadeira para uma criança, mas estará aberto para qualquer um testar, commitar ou mexer da forma que quiser.
